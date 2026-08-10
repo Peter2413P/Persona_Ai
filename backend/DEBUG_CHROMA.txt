@@ -1,0 +1,790 @@
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: GENERAL, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: ACTOR (IMPLIED, NOT EXPLICITLY STATED)
+CLASSIFIER -> Route: GENERAL, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 1995-9999, Role: ACTOR (IMPLIED, NOT EXPLICITLY STATED)
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: GENERAL, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: GENERAL, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: DETAILED, Entity: VIJAY, Years: 0-9999, Role: NONE
+CLASSIFIER -> Route: DOCS_SEARCH, Intent: COMPREHENSIVE_LIST, Entity: VIJAY, Years: 1980-1983, Role: NONE
+CLASSIFIER -> Route: GENERAL, Intent: NORMAL, Entity: NONE, Years: 0-9999, Role: NONE
+CLASSIFIER JSON -> {"intent": "GREETING", "entity": "NONE", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "YEAR_FILTER", "entity": "Vijay", "year": 1995, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "YEAR_FILTER", "entity": "Vijay", "year": null, "start_year": 2010, "end_year": 2020, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "first", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "final", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "COUNT_GROUP", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": "year", "operation": "max"}
+CLASSIFIER JSON -> {"intent": "YEAR_FILTER", "entity": "Vijay", "year": 1995, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Baahubali", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "STRUCTURED_TABLE_QUERY", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "debut", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "STRUCTURED_TABLE_QUERY", "entity": "Chandrasekaran Joseph Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "YEAR_FILTER", "entity": "Vijay", "year": null, "start_year": 2010, "end_year": 2020, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "YEAR_FILTER", "entity": "Vijay", "year": 1995, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "multiple roles", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "guest", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": "first", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "SPECIAL_POSITION", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": 50, "keyword": "50th", "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Mersal", "year": null, "start_year": null, "end_year": null, "position": null, "keyword": null, "group_by": null, "operation": null}
+CLASSIFIER JSON -> {"intent": "GREETING", "entity": "", "subject": "", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies, film", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 1995, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 1990, "year_end": 1999, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GREETING", "entity": "", "subject": "", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies, film", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 1995, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 1990, "year_end": 1999, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 1995, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GREETING", "entity": "", "subject": "", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies, film", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 1995, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 1990, "year_end": 1999, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GREETING", "entity": "", "subject": "", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies, film", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Chandrasekaran Joseph Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 1995, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 1990, "year_end": 1999, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "RANKED_LOOKUP", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": 50, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "MULTIPLE_ROLES", "entity": "Vijay", "subject": "Tamil films", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": ["from", "2010", "to", "2020"], "ordinal": null, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": 2012, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILTER", "entity": "Vijay", "subject": "movies", "year": null, "year_start": 2010, "year_end": 2020, "filters": ["multiple roles"], "ordinal": null, "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FIRST_LAST", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_RAG", "entity": "Vijay", "subject": "movies", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "LIST", "entity": "Vijay", "subject": "roles", "year": null, "year_start": null, "year_end": null, "filters": [], "ordinal": null, "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies/film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies/film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "roles", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies/film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "roles", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "James Cameron", "subject": "movies/film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BY_YEAR", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILMOGRAPHY_LIST", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies/film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "roles", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "roles", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': '1985 (1984)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_LEAD_ACTOR_FILM
+Result: {'intent': 'FIRST_LEAD_ACTOR_FILM', 'answer_data': {'first_lead_actor_film': '1985 (1984)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIFTIETH_FILM
+Result: {'intent': 'FIFTIETH_FILM', 'answer_data': {'milestone': '50th film', 'film_title': 'Sura', 'release_year': 2010}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': '1985 (1984)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies/film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_LEAD_ACTOR_FILM
+Result: {'intent': 'FIRST_LEAD_ACTOR_FILM', 'answer_data': {'first_lead_actor_film': '1985 (1984)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIFTIETH_FILM
+Result: {'intent': 'FIFTIETH_FILM', 'answer_data': {'milestone': '50th film', 'film_title': 'Sura', 'release_year': 2010}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "GUEST_APPEARANCE_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_BETWEEN_YEARS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": 2010, "year_end": 2020, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies/film", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "roles", "film_title": "Mersal", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FILM_ROLE_LOOKUP", "entity": "Vijay", "subject": "movies, film", "film_title": "Avatar 2", "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_LEAD_ACTOR_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_LEAD_ACTOR_FILM
+Result: {'intent': 'FIRST_LEAD_ACTOR_FILM', 'answer_data': {'first_lead_actor_film': 'Naalaiya Theerpu (1992)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "COUNT_FILMS", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 1995, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FILMS_WITH_MULTIPLE_ROLES", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies, film", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': 'Naalaiya Theerpu (1992)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIFTIETH_FILM
+Result: {'intent': 'FIFTIETH_FILM', 'answer_data': {'milestone': '50th film', 'film_title': 'Sura', 'release_year': 2010}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIFTIETH_FILM", "entity": "Vijay", "subject": "movies", "film_title": null, "year": null, "year_start": null, "year_end": 100, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIFTIETH_FILM
+Result: {'intent': 'FIFTIETH_FILM', 'answer_data': {'milestone': '50th film', 'film_title': 'Sura', 'release_year': 2010}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 25, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': 'Naalaiya Theerpu (1992)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 25, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': 'Naalaiya Theerpu (1992)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+CLASSIFIER JSON -> {"intent": "FILMS_BY_YEAR", "entity": "Vijay", "subject": "movies", "film_title": null, "year": 2000, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+CLASSIFIER JSON -> {"intent": "NORMAL_SEMANTIC_QUERY", "entity": "Gautham Prabhakar", "subject": "movies", "film_title": null, "year": null, "year_start": 2000, "year_end": null, "filters": [], "requires_table_reasoning": true}
+CLASSIFIER JSON -> {"intent": "FIRST_FILM_APPEARANCE", "entity": "Gautham Prabhakar", "subject": "movies, film", "film_title": null, "year": 25, "year_start": null, "year_end": null, "filters": [], "requires_table_reasoning": false}
+
+[STRUCTURED ENGINE DEBUG]
+Intent: FIRST_FILM_APPEARANCE
+Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_overall': 'Vetri (1984)', 'appearance_type': 'Child Actor/Guest', 'first_lead_actor_role': 'Naalaiya Theerpu (1992)'}, 'confidence': 1.0, 'source': 'structured_filmography'}
+
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Who is MS Dhoni?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "target_entity": "he"
+  },
+  "rewritten_query": "What was his debut match?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "LIST_ALL",
+  "filters": {
+    "target_entity": "centuries"
+  },
+  "rewritten_query": "List his centuries"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FILTER",
+  "filters": {
+    "year": 2009,
+    "target_entity": "awards"
+  },
+  "rewritten_query": "What awards did he win in 2009?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "COUNT",
+  "filters": {
+    "keyword": "matches"
+  },
+  "rewritten_query": "How many matches did he play?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Who is vijay?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": "film"
+  },
+  "rewritten_query": "What was Vijay's first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Here is the rewritten question:\n\nWhat is Vijay's first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "NTH_RECORD",
+  "filters": {
+    "target_entity": "Vijay",
+    "position": "25"
+  },
+  "rewritten_query": "Here is the rewritten question with all pronouns resolved:\n\nWhat was Vijay's 25th film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "LIST_ALL",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": null,
+    "position": "25"
+  },
+  "rewritten_query": "Here is the rewritten question:\n\nWhat are the titles of Vijay's 25 films?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": "Vijay",
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "What was Vijay's first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": "lead actor"
+  },
+  "rewritten_query": "What was Vijay's first film as a lead actor?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FILTER",
+  "filters": {
+    "year": 1995,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null
+  },
+  "rewritten_query": "Here is the rewritten question:\n\nWhat are the movies released in 1995?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "LIST_ALL",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here is a rewritten version of the question that resolves all pronouns and can be answered independently:\n\nWhat are Vijay's movies?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "What was the first movie of Vijay as a lead actor?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List all Vijay's films where he played a dual role."
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "What are the movie titles in which Vijay made a guest appearance?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "LIST_ALL",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here is a rewritten version of the question as a standalone query that resolves all pronouns:\n\nWhat are some notable facts about Vijay?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_MATCH",
+  "filters": {
+    "year_end": null,
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What was Vijay's most recent film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FACT_LOOKUP",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": "final film"
+  },
+  "rewritten_query": "What was the title of Vijay's final film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List all the films where Vijay appeared as a guest actor."
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_FILM",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What was Vijay's first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "What was Vijay's first film as a lead actor?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FINAL_FILM",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What was Vijay's final film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List all films in which Vijay had a guest appearance, cameo, or extended cameo."
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "Which films featured Vijay in multiple roles?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "Which films did Vijay act in during 1995?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "ROLE_LOOKUP",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": "Mersal"
+  },
+  "rewritten_query": "What roles did Vijay play in Mersal?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "keyword": "Vijay"
+  },
+  "rewritten_query": "who is Vijay"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "keyword": "Vijay"
+  },
+  "rewritten_query": "who is Vijay"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FINAL_FILM, FIRST_FILM",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What are Vijay's last film and first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "target_entity": "Vijay",
+    "record_name": "background"
+  },
+  "rewritten_query": "What is Vijay's background, including his profession and notable roles in Tamil cinema?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "LIST_ALL",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What movies has Vijay acted in? Give me a list."
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List all movies of Vijay"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List all Vijay movies in chronological order"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_FILM",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "What was Vijay's first film?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "List Vijay's movies from 2010 to 2020"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Who is Rajinikanth?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Who is Rajinikanth?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "GREETING",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "hello,who are you?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_FILM",
+  "filters": {
+    "target_entity": "vijay"
+  },
+  "rewritten_query": "which is vijay's first movie?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "Who is the actor whose first movie was Naalaiya Theerpu in 1992?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "tell me about vijay"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FILTER",
+  "filters": {
+    "year_start": 1992,
+    "year_end": 1995,
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here's a rewritten question that resolves all pronouns:\n\nWhat films did Vijay appear in between 1992 and 1995?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here's a rewritten version of the question that resolves all pronouns and can be answered independently:\n\nWhat are some notable movies of Vijay, an Indian actor who has appeared in Tamil cinema?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here is the rewritten question:\n\nWhat is Vijay's identity or profession?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {},
+  "rewritten_query": "Here's a rewritten version of the question as a standalone query that resolves all pronouns:\n\n\"Who is Vijay, and what are his notable movies?\""
+}
