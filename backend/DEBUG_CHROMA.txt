@@ -788,3 +788,55 @@ Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_ov
   "filters": {},
   "rewritten_query": "Here's a rewritten version of the question as a standalone query that resolves all pronouns:\n\n\"Who is Vijay, and what are his notable movies?\""
 }
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "keyword": "vijay"
+  },
+  "rewritten_query": "who is vijay"
+}
+
+[QUERY PLAN]
+{
+  "mode": "GREETING",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "hi"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "keyword": "vijay"
+  },
+  "rewritten_query": "Who is vijay?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "who is vijay?"
+}

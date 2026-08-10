@@ -25,3 +25,4 @@ soundfile
 sentencepiece
 speechbrain
 torchaudio
+gradio-client
