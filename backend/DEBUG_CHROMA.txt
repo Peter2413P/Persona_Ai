@@ -840,3 +840,56 @@ Result: {'intent': 'FIRST_FILM_APPEARANCE', 'answer_data': {'first_appearance_ov
   },
   "rewritten_query": "who is vijay?"
 }
+
+[QUERY PLAN]
+{
+  "mode": "GREETING",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "Hey,Who are you?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "target_entity": "Vijay (Indian film actor)",
+    "keyword": "notable"
+  },
+  "rewritten_query": "What are some notable movies featuring the Indian film actor Vijay?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "STRUCTURED",
+  "operation": "FIRST_FILM",
+  "filters": {
+    "target_entity": "Vijay"
+  },
+  "rewritten_query": "Here's a rewritten version of the question that resolves all pronouns:\n\nWhen did Vijay start his acting career?"
+}
+
+[QUERY PLAN]
+{
+  "mode": "SEMANTIC",
+  "operation": "NONE",
+  "filters": {
+    "year": null,
+    "year_start": null,
+    "year_end": null,
+    "keyword": null,
+    "target_entity": null,
+    "record_name": null,
+    "position": null
+  },
+  "rewritten_query": "what are the types of mahine learning"
+}

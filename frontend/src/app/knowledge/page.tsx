@@ -49,23 +49,24 @@ export default function KnowledgeBasePage() {
 
   useEffect(() => {
     fetchDocs();
+  }, [activePersona]);
+
+  useEffect(() => {
+    // Only poll if there are items processing
+    const hasProcessing = documents.some(d => d.status === "PROCESSING");
+    if (!hasProcessing || !activePersona) return;
     
-    // Polling mechanism for PROCESSING items
     const interval = setInterval(async () => {
-      if (!activePersona) return;
-      const currentDocs = await getDocuments(activePersona.id);
-      
-      const prevProcessing = documents.filter(d => d.status === "PROCESSING").length;
-      const currProcessing = currentDocs.filter(d => d.status === "PROCESSING").length;
-      
-      if (prevProcessing !== currProcessing || prevProcessing > 0) {
+      try {
+        const currentDocs = await getDocuments(activePersona.id);
         setDocuments(currentDocs);
+      } catch (err) {
+        console.error("Polling error", err);
       }
     }, 3000);
     
     return () => clearInterval(interval);
-  }, [documents.length, activePersona]);
-
+  }, [documents, activePersona]);
   // Handle Drag & Drop
   const handleDragOver = (e: React.DragEvent) => { e.preventDefault(); setIsDragging(true); };
   const handleDragLeave = () => { setIsDragging(false); };

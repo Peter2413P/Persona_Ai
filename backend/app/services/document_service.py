@@ -3,6 +3,7 @@ from app.rag.loaders import get_loader_for_file
 from app.db.session import SessionLocal
 from app.db.models import KnowledgeSource
 from app.services.knowledge_service import process_knowledge_source
+# trigger reload for docx2txt
 
 def ingest_document(file_path: str, filename: str, persona_id: str) -> str:
     db = SessionLocal()
